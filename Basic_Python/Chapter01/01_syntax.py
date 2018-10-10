@@ -21,7 +21,7 @@ this is multi-line
 also you can use \''' or \"""
 to show the multi-line contents.
 '''
-
+print(test)
 print(str)
 
 str1 = u"this is an unicode string."
