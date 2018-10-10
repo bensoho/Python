@@ -1,0 +1,8 @@
+<RCC>
+    <qresource>
+        <file alias="img/book.ico">img/book.ico</file>
+        <file alias="img/book.jpg">img/book.jpg</file>
+        <file alias="img/Error.ico">img/Error.ico</file>
+        <file alias="img/x.png">img/x.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,4 @@
+{
+    "scm.alwaysShowProviders": true,
+    "github.hosts": [ { "host": "https://github.com", "token": "7ffdb39e6ff55586c7ab4123343f3cdee7b54aec" } ]
+}
