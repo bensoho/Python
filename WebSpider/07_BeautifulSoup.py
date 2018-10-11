@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import re
 text = '''
         <div class="app-download">
           <a href="/app" target="_blank">
@@ -13,6 +14,10 @@ text = '''
         </div>
         '''
 soup = BeautifulSoup(text,'lxml')
-print(soup.a.span.next_siblings)
-for i in soup.a.span.next_siblings:
-    print(i.string)
+# print(soup.a.span.next_siblings)
+# for i in soup.a.span.next_siblings:
+#     print(i.string)
+# print(list(soup.a.span.parents)[0].attrs['target'])
+# print(soup.find_all(name = 'p')[1].string)
+# print(soup.find_all(class_='apptext'))
+print(soup.find_all(text=re.compile('APP')))
