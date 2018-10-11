@@ -1,2 +1,2 @@
-Python learning and practice playground.
+Python learning and practicing playground.
 
