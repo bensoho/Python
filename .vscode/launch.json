@@ -12,6 +12,22 @@
             "program": "${file}",
             "console": "integratedTerminal",
             //"console": "none",
+            "stopOnEntry": false,
+            "cwd": "${workspaceRoot}",
+            "envFile": "${workspaceRoot}/.env",
+            "debugOptions": [
+                //"WaitOnAbnormalExit",
+                //"WaitOnNormalExit",
+                "RedirectOutput"
+            ]
+        },
+        {
+            "name": "Python Debug",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            //"console": "none",
             "stopOnEntry": true,
             "cwd": "${workspaceRoot}",
             "envFile": "${workspaceRoot}/.env",
